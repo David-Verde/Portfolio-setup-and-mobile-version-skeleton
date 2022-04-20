@@ -1,0 +1,29 @@
+#mylogo {
+    height: 100px;
+    
+}
+
+.Header {
+    flex-grow: 6;
+}
+
+   #container {
+       display: flex;
+       background-color: white;
+     
+    }      
+    
+   nav ul li {
+        display: inline;
+        list-style: none;
+        font-family: 'Poppins';
+color: #344563;
+padding: 20px;
+
+ }
+
+ nav {
+     margin-left: auto;
+ }
+ 
+  
