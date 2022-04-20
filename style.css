@@ -26,4 +26,29 @@ padding: 20px;
      margin-left: auto;
  }
  
-  
+  #name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    align-items: center;
+    padding-left: 500px;
+    padding-top: 80px;
+    color: #091E42;
+
+  }
+  #content {
+    padding-left: 500px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #344563;
+  }
+  #connect {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 500px;
+    color: #7F8CFF;
+  }
