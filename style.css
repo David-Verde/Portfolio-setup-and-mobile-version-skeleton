@@ -146,7 +146,7 @@ html, body {
     font-size: 48px;
     align-items: center;
     padding-left: 100px;
-    padding-top: 160px;
+    padding-top: 60px;
     color: #091E42;
     
 
@@ -180,12 +180,74 @@ display:block
  #Vector {
  width: 18px;
     height: 18px;
-   
-   
- }
+   }
+   #img1 {
+position: absolute; 
+top: 270px;
+   }
+   #img11 {
+    position: absolute; 
+    top: 250px;
+    left: 1px;
+   }  
 
- 
- 
+   #img2 {
+    position: absolute; 
+    top: 750px;
+    left: 290px;
+
+   }
+  
+   #img3 {
+    position: absolute; 
+top: 150px;
+left: 250px;
+
+   }
+
+   #img4 {
+    position: absolute; 
+    top: 250px;
+    right: 0px;
     
+  }
+
+  #img5 {
+    position: absolute; 
+    top: 160px;
+    left: 250px;
     
+  }
+
+  #img6 {
+    position: absolute; 
+    top: 210px;
+   right: 0px;
     
+  }
+
+  #img7 {
+    position: absolute; 
+    top: 460px;
+    left: 450px;
+    
+  }
+
+  #img8 {
+    position: absolute; 
+    top: 760px;
+    left: 470px;
+    
+  }
+
+  #img9 {
+    position: absolute; 
+    top: 690px;
+    left: 470px;
+    
+  }
+  #img0 {
+    position: absolute; 
+    top: 690px;
+    left: 70px;
+  }
