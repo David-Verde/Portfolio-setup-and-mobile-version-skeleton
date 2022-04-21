@@ -138,12 +138,7 @@ html, body {
     
     
 }
-
-.Header {
-    flex-grow: 6;
-}     
-    
-
+     
   #name {
     font-family: 'Poppins';
     font-style: normal;
