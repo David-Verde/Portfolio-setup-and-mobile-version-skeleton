@@ -1,16 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 h2 {
   vertical-align: center;
   text-align: center;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
 
 * {
-  font-family: "Raleway";
+  font-family: "Railway", sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,15 +21,11 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
-  background: linear-gradient(to left, #ffffff, #6070FF);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
+  background: linear-gradient(to left, #fff, #6070ff);
+  color: #fff;
   height: 50px;
   padding: 1em;
-  
 }
-
 
 .menu {
   display: flex;
@@ -59,7 +57,7 @@ html, body {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #6070FF;
+  background-color: #6070ff;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -78,16 +76,16 @@ html, body {
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
-  margin-top: 0px;
+  margin-top: 1px;
   transform: rotate(405deg);
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button {
-  background: #6070FF;
+  background: #6070ff;
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
-  margin-top: 0px;  
+  margin-top: 1px;
   transform: rotate(-405deg);
 }
 
@@ -95,6 +93,21 @@ html, body {
   .menu-button-container {
     display: flex;
   }
+
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #6070ff;
+  }
+
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #6070ff;
+  }
+
   .menu {
     position: absolute;
     top: 0;
@@ -105,6 +118,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
+
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
@@ -112,142 +126,123 @@ html, body {
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
+
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .menu > li {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0.5em 0;
-    width: 100%;
-    color: white;
-    background-color: #6070FF;
-  }
-  .menu > li:not(:last-child) {
-    border-bottom: 1px solid #6070FF;
-  }
 }
 
 #mylogo {
-    height: 100px;
-    padding-top: 6px;
-    
-    
+  height: 100px;
+  padding-top: 6px;
 }
-     
-  #name {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    align-items: center;
-    padding-left: 100px;
-    padding-top: 60px;
-    color: #091E42;
-    
 
-  }
-  #content {
-    padding-left: 100px;
-    font-size: 20px;
-    font-family: 'Poppins';
-    color: #344563;
-  }
-  #connect {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 100px;
-    color: #7F8CFF;
-  }
-  #connect:hover {
-background-color: #091E42;
-  }
+#name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 60px;
+  color: #091e42;
+}
 
- .icons {
+#content {
+  padding-left: 100px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
 
-display: flex;
-padding-left:  100px;
-display:block
+#connect {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 100px;
+  color: #7f8cff;
+}
 
- }
- #Vector {
- width: 18px;
-    height: 18px;
-   }
-   #img1 {
-position: absolute; 
-top: 270px;
-   }
-   #img11 {
-    position: absolute; 
-    top: 250px;
-    left: 1px;
-   }  
+#connect:hover {
+  background-color: #091e42;
+}
 
-   #img2 {
-    position: absolute; 
-    top: 750px;
-    left: 290px;
+.icons {
+  padding-left: 100px;
+  display: block;
+}
 
-   }
-  
-   #img3 {
-    position: absolute; 
-top: 290px;
-left: 250px;
+#Vector {
+  width: 18px;
+  height: 18px;
+}
 
-   }
+#img1 {
+  position: absolute;
+  top: 270px;
+}
 
-   #img4 {
-    position: absolute; 
-    top: 250px;
-    right: 0px;
-    
-  }
+#img11 {
+  position: absolute;
+  top: 250px;
+  left: 1px;
+}
 
-  #img5 {
-    position: absolute; 
-    top: 310px;
-    left: 250px;
-    
-  }
+#img2 {
+  position: absolute;
+  top: 750px;
+  left: 290px;
+}
 
-  #img6 {
-    position: absolute; 
-    top: 210px;
-   right: 0px;
-    
-  }
+#img3 {
+  position: absolute;
+  top: 290px;
+  left: 250px;
+}
 
-  #img7 {
-    position: absolute; 
-    top: 460px;
-    left: 450px;
-    
-  }
+#img4 {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
 
-  #img8 {
-    position: absolute; 
-    top: 760px;
-    left: 470px;
-    
-  }
+#img5 {
+  position: absolute;
+  top: 310px;
+  left: 250px;
+}
 
-  #img9 {
-    position: absolute; 
-    top: 690px;
-    left: 470px;
-    
-  }
-  #img0 {
-    position: absolute; 
-    top: 690px;
-    left: 70px;
-  }
+#img6 {
+  position: absolute;
+  top: 210px;
+  right: 0;
+}
+
+#img7 {
+  position: absolute;
+  top: 460px;
+  left: 450px;
+}
+
+#img8 {
+  position: absolute;
+  top: 760px;
+  left: 470px;
+}
+
+#img9 {
+  position: absolute;
+  top: 690px;
+  left: 470px;
+}
+
+#img0 {
+  position: absolute;
+  top: 690px;
+  left: 70px;
+}
