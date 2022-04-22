@@ -1,0 +1,129 @@
+[33mcommit 8bdcf45618d132e7a1ad664b5f35692a24838702[m[33m ([m[1;36mHEAD -> [m[1;32mcommit[m[33m, [m[1;31morigin/mobile-correction[m[33m, [m[1;31morigin/mobile[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/commit[m[33m, [m[1;31morigin/Master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmobile[m[33m)[m
+Merge: 5b54e14 1774b06
+Author: Unyielding1 <99683363+Unyielding1@users.noreply.github.com>
+Date:   Fri Apr 22 12:52:26 2022 -0500
+
+    Merge pull request #1 from Unyielding1/portfolio
+    
+    Portfolio mobile
+
+[33mcommit 1774b06df08f6c2227a90ca333eae2bac4e69be2[m[33m ([m[1;31morigin/portfolio[m[33m)[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Fri Apr 22 12:47:05 2022 -0500
+
+    ¨details¨
+
+[33mcommit 382b86f2aaf0120829379df3f53369a568a390f3[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Fri Apr 22 12:45:31 2022 -0500
+
+    ¨details¨
+
+[33mcommit a2fa6f95b390b59a45f2365239a2726c08f0cb80[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Fri Apr 22 10:49:09 2022 -0500
+
+    ¨background¨
+
+[33mcommit 89b2b16ae5b0e1a7309b41f5628350fc1cdf1ed5[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 17:40:49 2022 -0500
+
+    ¨limpers¨
+
+[33mcommit 6b5698c84752ef1954f3fbc67022e72291438050[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 17:35:56 2022 -0500
+
+    ¨limpers¨
+
+[33mcommit 840b1826fd9be4e67e69d74f9bd829a9e8818e48[m
+Merge: 60d442b 79f8da0
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 17:23:04 2022 -0500
+
+    Merge branch 'portfolio' of github.com:Unyielding1/Portfolio-setup-and-mobile-version-skeleton into portfolio
+
+[33mcommit 60d442bda6520bf6bed72889db5bffd62fef0e2e[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 17:22:32 2022 -0500
+
+    ¨limpers¨
+
+[33mcommit 79f8da05ff9f9a112cf80f77354beb3141a322f2[m
+Author: Unyielding1 <99683363+Unyielding1@users.noreply.github.com>
+Date:   Thu Apr 21 15:52:06 2022 -0500
+
+    Update README.md
+
+[33mcommit 6c449f0f16faf0cc04a8c384320165133bfd9a8f[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 15:30:41 2022 -0500
+
+    ¨flinters¨
+
+[33mcommit d1ab13bb9b7b993346d8a355bd8748e5368e8532[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 14:43:31 2022 -0500
+
+    ¨linter¨
+
+[33mcommit 1d7e48e8b28c8226b9ee201b33d438d3c4214613[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 14:06:18 2022 -0500
+
+    ¨linters¨
+
+[33mcommit 047191fbed46b479cd498950ca51475bcc7aa5b3[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 13:58:27 2022 -0500
+
+    ¨linters¨
+
+[33mcommit 6ffb490a3aea97978681ca2acac34af3ce3bd6bc[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 13:13:59 2022 -0500
+
+    ¨linters¨
+
+[33mcommit 142b2df78dadcccc7aaae5b3fa99a72c35e2066b[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 12:56:32 2022 -0500
+
+    ¨background¨
+
+[33mcommit 97ba6acf83b9d43ffe640072869572ff050f121b[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 11:10:38 2022 -0500
+
+    ¨newbranch¨
+
+[33mcommit 5b54e14ed58aacb40f21e7f6abf642c7874c14ce[m[33m ([m[1;32m¨main¨[m[33m)[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Thu Apr 21 11:04:29 2022 -0500
+
+    ¨browser¨
+
+[33mcommit 180b7a31948d7a8a5da912b76ade7e373a49a058[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Wed Apr 20 17:31:09 2022 -0500
+
+    ¨Body¨
+
+[33mcommit 299337b6324f4939afe8521b0db77e29ca74d420[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Wed Apr 20 15:54:22 2022 -0500
+
+    ´header¨
+
+[33mcommit ed6a5e55216f12cae6fda5e9fab157049756d620[m
+Author: ¨Unyielding1¨ <¨david.verde.alvarez@gmail.com¨>
+Date:   Wed Apr 20 13:11:07 2022 -0500
+
+    ¨linters¨
+
+[33mcommit 53325c9c1a9e733f87cf33610a41aa51b290ca75[m
+Author: Unyielding1 <99683363+Unyielding1@users.noreply.github.com>
+Date:   Wed Apr 20 12:22:43 2022 -0500
+
+    Initial commit
