@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to left, #fff, #6070ff);
+  background: linear-gradient(to left, #fff, #ffffff);
   color: #fff;
   height: 50px;
   padding: 1em;
@@ -164,85 +164,34 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 100px;
   color: #7f8cff;
 }
 
 #connect:hover {
   background-color: #091e42;
+ 
 }
 
 .icons {
-  padding-left: 100px;
-  display: block;
+list-style: none;
+display: inline-flex;
+position: absolute;
+top: 570px;
+left: 70px;
+
+  
+  
 }
 
 #Vector {
   width: 18px;
   height: 18px;
 }
+#background {
+  background-image: url("/Image/background.png");
+background-color: rgb(255, 255, 255);  
+background-repeat: no-repeat;
+background-position: 1px 100px;
 
-#img1 {
-  position: absolute;
-  top: 270px;
 }
 
-#img11 {
-  position: absolute;
-  top: 250px;
-  left: 1px;
-}
-
-#img2 {
-  position: absolute;
-  top: 750px;
-  left: 290px;
-}
-
-#img3 {
-  position: absolute;
-  top: 290px;
-  left: 250px;
-}
-
-#img4 {
-  position: absolute;
-  top: 250px;
-  right: 0;
-}
-
-#img5 {
-  position: absolute;
-  top: 310px;
-  left: 250px;
-}
-
-#img6 {
-  position: absolute;
-  top: 210px;
-  right: 0;
-}
-
-#img7 {
-  position: absolute;
-  top: 460px;
-  left: 450px;
-}
-
-#img8 {
-  position: absolute;
-  top: 760px;
-  left: 470px;
-}
-
-#img9 {
-  position: absolute;
-  top: 690px;
-  left: 470px;
-}
-
-#img0 {
-  position: absolute;
-  top: 690px;
-  left: 70px;
-}
