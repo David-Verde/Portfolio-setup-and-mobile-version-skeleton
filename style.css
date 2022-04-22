@@ -1,16 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-h2 {
-  vertical-align: center;
-  text-align: center;
-}
-
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-
 * {
   font-family: "Railway", sans-serif;
   box-sizing: border-box;
@@ -21,7 +10,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to left, #fff, #ffffff);
+  background: linear-gradient(to left, #fff, #fff);
   color: #fff;
   height: 50px;
   padding: 1em;
@@ -141,20 +130,21 @@ body {
 }
 
 #name {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  align-items: center;
-  padding-left: 100px;
-  padding-top: 60px;
+  font-family: Poppins, sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
   color: #091e42;
 }
 
 #content {
-  padding-left: 100px;
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
   color: #344563;
 }
 
@@ -163,35 +153,42 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: #7f8cff;
 }
 
 #connect:hover {
   background-color: #091e42;
- 
 }
 
 .icons {
-list-style: none;
-display: inline-flex;
-position: absolute;
-top: 570px;
-left: 70px;
+  list-style: none;
+  display: inline-flex;
+}
 
-  
-  
+.icons ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+.icons ul {
+  padding: 1px;
 }
 
 #Vector {
   width: 18px;
   height: 18px;
 }
-#background {
-  background-image: url("/Image/background.png");
-background-color: rgb(255, 255, 255);  
-background-repeat: no-repeat;
-background-position: 1px 100px;
 
+main {
+  background-image: url("/Image/background.png");
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: 0 -80px;
 }
 
+#background {
+  flex-direction: column;
+  justify-content: center;
+  padding: 106px 20px 100px;
+}
