@@ -8,6 +8,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "postcss-safe-parser": "^6.0.0"
   }
 }
