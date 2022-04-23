@@ -1,4 +1,14 @@
-# Portfolio-setup-and-mobile-version-skeleton
-3 project of Microverse 
-this project is made from a template, and the hamburger button y look it in the internet, the rest is made by myself
-Y use HTML and CSS separately, only in the background images i use inline css because it was more easy 
+Project Name
+-Portfolio project made by David Verde.
+
+Built With
+Html5
+Css
+Visual Studio Code
+Authors
+👤 David Verde
+
+GitHub: https://github.com/Unyielding1
+Twitter: https://twitter.com/UnyieldingOne
+LinkedIn: https://www.linkedin.com/in/david-verde-3349b114b/
+This project is MIT licensed.
