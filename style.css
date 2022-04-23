@@ -183,7 +183,7 @@
 
 main {
   background-image: url("/Image/background.png");
-  background-color: rgb(255 255 255);
+  background-color: white;
   background-repeat: no-repeat;
   background-position: 0 -80px;
 }
