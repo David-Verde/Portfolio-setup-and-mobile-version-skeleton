@@ -1,6 +1,7 @@
 * {
   font-family: Railway, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .top-nav {
@@ -124,7 +125,7 @@
 
 #mylogo {
   height: 100px;
-  padding-top: 6px;
+  padding: -1px;
 }
 
 #name {
@@ -153,8 +154,8 @@
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  padding-bottom: 14px;
-  padding-top: 9px;
+  padding-bottom: 1px;
+  padding-top: 1px;
 }
 
 #connect:hover {
@@ -162,18 +163,21 @@
 }
 
 .icons {
-  list-style: none;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.icons ul li {
+.icons li {
+  padding-left: 1px;
+  margin: 10px 1px;
+  list-style: none;
   list-style-type: none;
-  display: inline;
-  padding-right: 20px;
+  align-items: flex-start;
 }
 
 .icons ul {
-  padding: 1px;
+  padding: -1px;
 }
 
 #vector {
@@ -182,8 +186,8 @@
 }
 
 main {
-  background-image: url("/Image/background.png");
-  background-color: white;
+  background-image: url("./Image/background.png");
+  background-color: rgb(255 255 255);
   background-repeat: no-repeat;
   background-position: 0 -80px;
 }
