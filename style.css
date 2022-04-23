@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
 * {
-  font-family: "Railway", sans-serif;
-  margin: 0px;
+  font-family: Railway, sans-serif;
+  margin: 0;
 }
 
 .top-nav {
@@ -55,12 +53,12 @@
 }
 
 .menu-button::before {
-  content: '';
+  content: "";
   margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
+  content: "";
   margin-top: 8px;
 }
 
@@ -150,12 +148,12 @@
 }
 
 #connect {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  padding-bottom: 14px; 
+  padding-bottom: 14px;
   padding-top: 9px;
 }
 
@@ -178,14 +176,14 @@
   padding: 1px;
 }
 
-#Vector {
+#vector {
   width: 18px;
   height: 18px;
 }
 
 main {
   background-image: url("/Portfolio-setup-and-mobile-version-skeleton/Image/background.png");
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   background-repeat: no-repeat;
   background-position: 0 -80px;
 }
