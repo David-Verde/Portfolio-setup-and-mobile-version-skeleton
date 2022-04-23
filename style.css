@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
 * {
-  font-family: "Railway", sans-serif;
-  box-sizing: border-box;
+  font-family: Railway, sans-serif;
+  margin: 0;
 }
 
 .top-nav {
@@ -12,7 +10,7 @@
   justify-content: space-between;
   background: linear-gradient(to left, #fff, #fff);
   color: #fff;
-  height: 50px;
+  height: 117px;
   padding: 1em;
 }
 
@@ -31,7 +29,7 @@
 .menu-button-container {
   display: none;
   height: 100%;
-  width: 30px;
+  width: 421px;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -55,12 +53,12 @@
 }
 
 .menu-button::before {
-  content: '';
+  content: "";
   margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
+  content: "";
   margin-top: 8px;
 }
 
@@ -100,7 +98,7 @@
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 102px;
     left: 0;
     flex-direction: column;
     width: 100%;
@@ -146,14 +144,17 @@
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
+  text-align: justify;
 }
 
 #connect {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
+  padding-bottom: 14px;
+  padding-top: 9px;
 }
 
 #connect:hover {
@@ -175,14 +176,14 @@
   padding: 1px;
 }
 
-#Vector {
+#vector {
   width: 18px;
   height: 18px;
 }
 
 main {
-  background-image: url("/Image/background.png");
-  background-color: rgb(255, 255, 255);
+  background-image: url("/Portfolio-setup-and-mobile-version-skeleton/Image/background.png");
+  background-color: rgb(255 255 255);
   background-repeat: no-repeat;
   background-position: 0 -80px;
 }
@@ -190,5 +191,5 @@ main {
 #background {
   flex-direction: column;
   justify-content: center;
-  padding: 106px 20px 100px;
+  padding: 133px 20px 100px;
 }
