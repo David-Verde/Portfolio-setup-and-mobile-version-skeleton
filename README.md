@@ -1,12 +1,24 @@
-Project Name
--Portfolio project made by David Verde.
 
-Built With
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name
+
+Mobile Version Portfolio 
+
+
+## Built With
+
 Html5
 Css
 Visual Studio Code
-Authors
-👤 David Verde
+Google Dev Tools
+
+
+## Authors
+
+👤David Verde Alvarez
+
+## social Links
 
 GitHub: https://github.com/Unyielding1
 Twitter: https://twitter.com/UnyieldingOne
