@@ -243,15 +243,12 @@ ul.big_circle {
 }
 
 .contact {
-  background: #6070ff url("images/contact-Shapes.png");
-  background-size: 61%;
+  background: #6070ff url("/Image/contact-background.png");
+  background-size: 60%;
   background-repeat: no-repeat;
-  background-position: 155px 26px;
-  border-radius: 100px 0 0 0;
+  background-position: 152px 30px;
   padding: 5rem 1.5rem;
-  margin-top: 3rem;
   position: relative;
-  max-width: 375px;
 }
 
 .contact_flex {
@@ -325,3 +322,4 @@ ul.big_circle {
   order: 0;
   flex-grow: 0;
 }
+
