@@ -125,10 +125,10 @@
 
 #mylogo {
   height: 100px;
-  padding: -1px;
+  width: 95px;
 }
 
-#name {
+#top-name {
   font-family: Poppins, sans-serif;
   font-size: 37px;
   font-weight: 700;
@@ -197,3 +197,4 @@ main {
   justify-content: center;
   padding: 133px 20px 100px;
 }
+

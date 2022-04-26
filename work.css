@@ -3,13 +3,6 @@
   --default-font: 'Poppins';
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -244,11 +237,14 @@ ul.big_circle {
 
 .contact {
   background: #6070ff url("/Image/contact-background.png");
-  background-size: 60%;
+  background-size: 61%;
   background-repeat: no-repeat;
-  background-position: 152px 30px;
+  background-position: 155px 26px;
+  border-radius: 100px 0 0 0;
   padding: 5rem 1.5rem;
+  margin-top: 3rem;
   position: relative;
+  max-width: 375px;
 }
 
 .contact_flex {
@@ -313,7 +309,7 @@ ul.big_circle {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 13px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
