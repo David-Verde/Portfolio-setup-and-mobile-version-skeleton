@@ -236,7 +236,7 @@ ul.big_circle {
 }
 
 .contact {
-  background: #6070ff url("/Image/contact-background.png");
+  background: #6070ff url("./Image/contact-background.png");
   background-size: 61%;
   background-repeat: no-repeat;
   background-position: 155px 26px;
