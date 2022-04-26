@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -322,4 +322,3 @@ ul.big_circle {
   order: 0;
   flex-grow: 0;
 }
-
