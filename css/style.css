@@ -36,7 +36,9 @@ body {
 #mylogo {
   height: 100px;
   width: 100px;
+
 }
+
 
 .nav-list {
   list-style-type: none;
@@ -61,8 +63,8 @@ body {
 }
 
 @keyframes example {
-  from {color: red;}
-  to {color: yellow;}
+  from {color: black;}
+  to {color: #5571fe;}
 }
 
 .navbar a {
@@ -137,16 +139,10 @@ ul.small_text {
   color: black;
 }
 
-.logo {
-  width: 180px;
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #6070ff;
-}
-
-.logo:hover {
+#mylogo:hover {
   transition-duration: 1s;
   transform: rotate(360deg);
+  opacity: 5;
 }
 
 .menu-line {
@@ -654,7 +650,9 @@ button[disabled] {
   .headlines {
     background-image: url(/Image/background.jpg);
     background-repeat: no-repeat;
-    background-size: 375px 806px;
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
   }
 
   .nav-list .list-item {
