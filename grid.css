@@ -144,4 +144,35 @@
         margin: 0 0;
         color: blue;
     }
+    }
+    @media (min-width: 768px) {
+      .works-desktop {
+        max-width: 1440px;
+        height: 2694px;
+        display: grid;
+        padding: 142px;
+        background: #e5e5e5;
+      }
+    
+      .grid-container {
+        display: none;
+      }
+    
+      .works-card {
+        max-width: 1156px;
+        max-height: 496px;
+        margin: 0;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .grid-container {
+        display: visible;
+      }
+    
+      .works-card {
+        display: none;
+      }
+    }
+    
     
