@@ -17,6 +17,7 @@ Google Dev Tools
 ## Authors
 
 👤David Verde Alvarez
+👤Tinashe Murambinda
 
 ## social Links
 
