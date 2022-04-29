@@ -62,6 +62,31 @@ body {
   color: #344563;
 }
 
+.work-container a {
+  text-decoration: none;
+  color: #396df2;
+}
+
+.stacks li {
+  list-style: none;
+  border-bottom: 2px solid #f7f7f9;
+}
+
+.stacks li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  padding-left: 1px;
+}
+
+.grid-container > li {
+  background-color: #f7f7f9;
+  font-size: 10px;
+  width: 450px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
 ul.small_text li {
   display: inline;
   padding-right: 8px;
@@ -80,24 +105,8 @@ ul.small_text {
   display: none;
 }
 
-.work-container a {
-  text-decoration: none;
-  color: #396df2;
-}
-
 .work-description h1 a {
   font-size: 30px;
-  color: black;
-}
-
-.stacks li {
-  list-style: none;
-  border-bottom: 2px solid #f7f7f9;
-}
-
-.stacks li a {
-  padding: 10px;
-  text-decoration: none;
   color: black;
 }
 
@@ -167,14 +176,11 @@ ul.small_text {
   font-size: 35px;
 }
 
-.btn-connect h6 {
+a.btn-connect {
+  text-decoration: none;
   font-size: 25px;
   color: #007bff;
   font-weight: 200;
-}
-
-a.btn-connect {
-  text-decoration: none;
 }
 
 .work-section {
@@ -194,14 +200,6 @@ a.btn-connect {
 .grid-container img,
 .grid-container p {
   display: inline;
-}
-
-.grid-container > li {
-  background-color: #f7f7f9;
-  font-size: 10px;
-  width: 450px;
-  border-radius: 8px;
-  padding: 30px;
 }
 
 .grid-container > li img {
@@ -381,7 +379,7 @@ a.btn-two {
 }
 
 .contact h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   color: #fff;
   padding-top: 59px;
@@ -473,7 +471,6 @@ a.btn-two {
   padding: 12px 16px;
   color: #6070ff;
   background-color: #fff;
-  position: static;
   top: 347px;
   left: 154px;
   margin: 27px 0;
@@ -641,6 +638,12 @@ button[disabled] {
     display: none;
   }
 
+  .headlines {
+    background-image: url(/Image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 806px;
+  }
+
   .nav-list .list-item {
     display: block;
     padding: 10px;
@@ -673,9 +676,12 @@ button[disabled] {
 
   .contact {
     position: relative;
-    left: 0;
     background: #6070ff;
     border-top-left-radius: 100px;
+    background-image: url(/Image/contact-background.png);
+    background-size: 376px 819px;
+    background-repeat: no-repeat;
+    background-position: 23px;
   }
 
   .contact-container {
@@ -685,11 +691,33 @@ button[disabled] {
 
   .contact-p {
     width: 280px;
-    padding-right: 20px;
   }
 
   .contact input {
     width: 320px;
+  }
+
+  .contact button {
+    height: 48px;
+    width: 150px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    color: #6070ff;
+    background-color: #fff;
+    top: 347px;
+    left: 154px;
+    margin: 27px 0;
+    border: 1px solid #7f8cff;
+    margin-right: 154px;
   }
 
   .contact textarea {
