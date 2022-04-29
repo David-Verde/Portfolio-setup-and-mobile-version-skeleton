@@ -31,14 +31,12 @@ body {
   background-color: white;
   display: flex;
   justify-content: space-between;
-
 }
+
 #mylogo {
-    height: 100px;
-    width: 100px;
-   
-    
-  }
+  height: 100px;
+  width: 100px;
+}
 
 .nav-list {
   list-style-type: none;
@@ -63,6 +61,7 @@ body {
 .list-item a {
   color: #344563;
 }
+
 ul.small_text li {
   display: inline;
   padding-right: 8px;
@@ -71,6 +70,7 @@ ul.small_text li {
 ul.small_text {
   padding: 15px 0;
 }
+
 .size {
   width: 20px;
   height: 20px;
@@ -176,8 +176,6 @@ ul.small_text {
 a.btn-connect {
   text-decoration: none;
 }
-
-
 
 .work-section {
   background-color: transparent;
@@ -523,12 +521,9 @@ button[disabled] {
     width: 40%;
     padding-top: 15px;
     justify-content: flex-end;
-    
-    
   }
 
   .nav-list .list-item {
-    
     padding: 10px;
     border-top: 1px solid white;
     color: black;
@@ -644,7 +639,6 @@ button[disabled] {
     text-align: center;
     padding-top: 15px;
     display: none;
-    
   }
 
   .nav-list .list-item {
