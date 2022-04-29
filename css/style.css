@@ -149,7 +149,7 @@ ul.small_text {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url("/image/header_background.png");
+  background-image: url("/Image/header_background.png");
 }
 
 .headline-text {
@@ -366,7 +366,7 @@ a.btn-two {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  background-image: url(/image/header_background-b.png);
+  background-image: url(/Image/header_background-b.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   width: 100%;
@@ -639,7 +639,7 @@ button[disabled] {
   }
 
   .headlines {
-    background-image: url(/image/background.jpg);
+    background-image: url(/Image/background.jpg);
     background-repeat: no-repeat;
     background-size: 375px 806px;
   }
@@ -678,7 +678,7 @@ button[disabled] {
     position: relative;
     background: #6070ff;
     border-top-left-radius: 100px;
-    background-image: url(/image/contact-background.png);
+    background-image: url(/Image/contact-background.png);
     background-size: 376px 819px;
     background-repeat: no-repeat;
     background-position: 23px;
