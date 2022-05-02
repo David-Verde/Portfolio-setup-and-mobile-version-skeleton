@@ -158,7 +158,7 @@ ul.small_text {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
-  background-image: url("/header_background.png");
+  background-image: url("../header_background.png");
 }
 
 .headline-text {
@@ -374,7 +374,7 @@ a.btn-two {
   background: #5571fe;
   display: flex;
   flex-direction: column;
-  background-image: url(/header_background-b.png);
+  background-image: url(../header_background-b.png);
   background-repeat: no-repeat;
   background-position: center center;
   border-top-left-radius: 100px;
@@ -646,7 +646,7 @@ button[disabled] {
   }
 
   .headlines {
-    background-image: url(/background.jpg);
+    background-image: url(../background.jpg);
     background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
@@ -687,7 +687,7 @@ button[disabled] {
     position: relative;
     background: #6070ff;
     border-top-left-radius: 100px;
-    background-image: url(/contact-background.png);
+    background-image: url(../contact-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 
