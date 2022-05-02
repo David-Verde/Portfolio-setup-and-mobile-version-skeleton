@@ -1,14 +1,9 @@
 {
   "devDependencies": {
-    "postcss": "^8.1.0",
-    "postcss-loader": "^6.2.1",
+    "hint": "^6.1.4",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1",
-    "postcss-safe-parser": "^6.0.0"
+    "stylelint-scss": "^3.20.1"
   }
 }

@@ -1,82 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mobile Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>David Verde</title>
+
 </head>
 
 <body>
-  <header>
 
-    <section class="top-nav">
+    <header>
+        <nav class="navbar">
+            <a href="https://www.linkedin.com/in/david-verde-3349b114b/e"> <img id="mylogo"
+                    src="./Image/logo-david-nuevo-2021.png" alt="logo"> </a>
 
+            <ul class="nav-list">
+                <li class="list-item">
+                    <a href="#"> Portfolio </a>
+                </li>
+                <li class="list-item">
+                    <a href="#"> About </a>
+                </li>
+                <li class="list-item">
+                    <a href="#"> Contact </a>
+                </li>
+            </ul>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
 
-      <a href="https://www.linkedin.com/in/david-verde-3349b114b/e"> <img id="mylogo"
-          src="./Image/logo-david-nuevo-2021.png" alt="logo"> </a>
-      
-      <nav>
-        <label for="menu-toggle">MY FIRST WEB PAGE</label>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-          <span class='menu-button'></span>
-        </label>
-        <ul class="menu">
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    <section class="headlines">
+        <div class="container">
+            <div class="headline-text">
+
+                <h1 class="primary-text">I’m David Verde<br> Glad to see you!</h1>
+                <p id="animation-peer">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of
+                    Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                <a href="#" class="btn-connect">
+                    <h6>LET´S CONNECT</h6>
+                </a>
+                <ul class="small_text">
+
+                    <li>
+                        <a href="https://twitter.com/UnyieldingOne">
+                            <img class="size" src="./Image/twitter.svg" alt="twitter" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/david-verde-3349b114b/e">
+                            <img class="size" src="./Image/linkedin.svg" alt="linkedin" /></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@david.verde.alvarez">
+                            <img class="size" src="./Image/medium.svg" alt="medium" /></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Unyielding1">
+                            <img class="size" src="./Image/github.svg" alt="github" /></a>
+                    </li>
+                    <li>
+                        <a href="https://angel.co/profile/edit/overview">
+                            <img class="size" src="./Image/angellist.svg" alt="angellist" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-  </header>
+    <section class="work-section">
+        <ul class="work-section-wrapper">
 
-  <main>
-    <section id="background">
+            <li class="work">
+                <div class="work-container">
+                    <ul class="work-pro">
+                        <li>
+                            <img src="./Image/portfolio1.png" alt="Several hands holding beer glasses">
+                        </li>
 
-      <h1 id="name">I'm David Verde! Glad to see <br> you! </h1>
-      <p id="content">I'm a software developer! I can help you
-        build a product ,feature or website Look
-        through some of my work and
-        experience! If you like what you see and
-        have a project you need coded, don't
-        hestiate to contact me. </p>
-        
-        <p> <a href="https://www.linkedin.com/in/david-verde-3349b114b/e" id="connect">LET'S CONNECT </a>
-        </p>
+                        <li class="work-description">
+                            <h1><a href="">Tonic</a></h1>
+                            <div class="work-info">
+                                <ul>
+                                    <li class="intro">Canopy</li>
+                                    <li> <i class="fa fa-circle"></i> Back End Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p>
+                                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            </p>
 
-      <ul class="icons">
-          <li>
-            <a href="https://twitter.com/UnyieldingOne">
-              <img src="./Image/twitter.svg" alt="twitter"></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/david-verde-3349b114b/e">
-              <img id="vector" src="./Image/Vector.svg" alt="linkedin"></a>
-          </li>
-          <li>
-            <a href="https://medium.com/@david.verde.alvarez">
-              <img src="./Image/medium.svg" alt="medium"> </a>
-          </li>
-          <li>
-            <a href="https://github.com/Unyielding1">
-              <img src="./Image/github.svg" alt="github"> </a>
-          </li>
-          <li>
-            <a href="https://angel.co/profile/edit/overview">
-              <img src="./Image/angellist.svg" alt="angellist"> </a>
-          </li>
+                            <div class="tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </div>
 
+                            <a href="#" class="btn-one">See project</a>
+                        </li>
 
+                    </ul>
+                </div>
+            </li>
+
+            <li class="work">
+                <div class="work-container">
+                    <ul class="work-pro">
+                        <li>
+                            <img src="./Image/portfolio2.png" alt="Several hands holding beer glasses">
+                        </li>
+                        <li class="work-description">
+                            <h1><a href="">Multi-Post Stories</a></h1>
+                            <div class="work-info">
+                                <ul>
+                                    <li class="intro">FACEBOOK</li>
+                                    <li> <i class="fa fa-circle"></i> Full Stack Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p>
+                                Experimental content creation feature that allows users to add to an existing story over
+                                the course of a day without spamming their friends.
+                            </p>
+
+                            <div class="tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="btn-one">See project</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="work">
+                <div class="work-container">
+                    <ul class="work-pro">
+                        <li>
+                            <img src="./Image/portfolio3.png" alt="Several hands holding beer glasses">
+                        </li>
+                        <li class="work-description">
+                            <h1><a href="">Facebook 360</a></h1>
+                            <div class="work-info">
+                                <ul>
+                                    <li class="intro">FACEBOOK</li>
+                                    <li> <i class="fa fa-circle"></i> Full Stack Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p>
+                                Exploring the future of media in Facebook's first Virtual Reality app; a place to
+                                discover and enjoy 360 photos and videos on Gear VR.</p>
+
+                            <div class="tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="btn-one">See project</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="work">
+                <div class="work-container">
+                    <ul class="work-pro">
+                        <li>
+                            <img src="./Image/portfolio4.png" alt="Several hands holding beer glasses">
+                        </li>
+                        <li class="work-description">
+                            <h1><a href="">Uber Navigation</a></h1>
+                            <div class="work-info">
+                                <ul>
+                                    <li class="intro">UBER</li>
+                                    <li> <i class="fa fa-circle"></i> Lead Developer</li>
+                                    <li><i class="fa fa-circle"></i> 2018</li>
+                                </ul>
+                            </div>
+                            <p>
+                                A smart assistant to make driving more safe, efficient, and fun by unlocking your most
+                                expensive computer: your car.</p>
+
+                            <div class="tags">
+                                <ul>
+                                    <li>html</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="btn-one">See project</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
         </ul>
-      
     </section>
 
-  </main>
+    <section class="section-about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="text">
+                    <div class="headline-text">
+                        <h1 class="second-text">About Myself</h1>
 
+                        <p>Hello I’m a software developer! I can help you build a product , feature or website Look
+                            through some of my work and experience! If you like what you see and have a project you need
+                            coded, don’t hestiate to contact me.</p>
+
+                        <a href="#" class="btn-connect">
+                            <h6>LET´S CONNECT</h6>
+                        </a>
+                        <ul class="small_text">
+                            <li>
+                                <a href="https://twitter.com/UnyieldingOne">
+                                    <img class="size" src="./Image/twitter.svg" alt="twitter" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/david-verde-3349b114b/e">
+                                    <img class="size" src="./Image/linkedin.svg" alt="linkedin" /></a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@david.verde.alvarez">
+                                    <img class="size" src="./Image/medium.svg" alt="medium" /></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Unyielding1">
+                                    <img class="size" src="./Image/github.svg" alt="github" /></a>
+                            </li>
+                            <li>
+                                <a href="https://angel.co/profile/edit/overview">
+                                    <img class="size" src="./Image/angellist.svg" alt="angellist" />
+                                </a>
+                            </li>
+                        </ul>
+                        <br>
+                        <a href="#" class="btn-one">Get My Resume</a>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <ul class="stacks">
+                        <li class="languages">
+
+                            <a href="#">
+                                <h2>Languages</h2>
+                            </a>
+                            <ul class="grid-container">
+                                <li>
+
+                                    <img src="./Image/js.png" alt="js_logo">
+                                    <p>JavaScript</p>
+
+                                </li>
+                                <li>
+
+                                    <img src="./Image/html.png" alt="html_logo">
+                                    <p>HTML</p>
+
+                                </li>
+
+                                <li>
+
+                                    <img src="./Image/css.png" alt="css_logo">
+                                    <p>CSS</p>
+
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <h2>Frameworks</h2>
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+                                <h2>Skills</h2>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2>Contact me</h2>
+                <p class="contact-p">If you have an application you are interested in developing, a feature that you
+                    need built or a project that needs coding. I’d love to help with it </p>
+                <form action="https://formspree.io/f/xjvjejyb" method="POST">
+                    <input name="name" type="text" placeholder="David Verde" required maxlength="30">
+                    <input name="email" type="email" placeholder="David.verde.alvarez@gmail.com" required>
+                    <textarea name="message" placeholder="Leave a message" maxlength="500" required></textarea>
+                    <button type="submit">Get in touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
