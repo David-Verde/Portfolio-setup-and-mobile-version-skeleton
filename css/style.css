@@ -57,12 +57,12 @@ body {
   color: red;
   animation-name: example;
   animation-duration: 4s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
 }
 
 @keyframes example {
-  from {color: black;}
-  to {color: #5571fe;}
+  from { color: black; }
+  to { color: #5571fe; }
 }
 
 .navbar a {
@@ -646,9 +646,9 @@ button[disabled] {
   .headlines {
     background-image: url(../background.jpg);
     background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .nav-list .list-item {
@@ -688,8 +688,6 @@ button[disabled] {
     background-image: url(../contact-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-    
   }
 
   .contact-container {

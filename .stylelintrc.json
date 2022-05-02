@@ -1,3 +1,3 @@
 {
-  "extends": "C:\Users\david\AppData\Local\npm-cache\_npx\69cd2ba96dd4b8d2\node_modules\stylelint-config-standard"
+  "extends": "stylelint-config-standard"
 }
