@@ -36,9 +36,7 @@ body {
 #mylogo {
   height: 100px;
   width: 100px;
-
 }
-
 
 .nav-list {
   list-style-type: none;
@@ -55,7 +53,7 @@ body {
 }
 
 #animation-peer {
-  width:fit-content;
+  width: fit-content;
   color: red;
   animation-name: example;
   animation-duration: 4s;
